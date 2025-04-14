@@ -8,5 +8,5 @@
     branchSource:
       git:
         remote: https://github.com/PereBueno/Beer-O-Clock-Stash-hook
-    
+    scanRepositoryInterval: 5 minutes
     markerfile: pom.xml
