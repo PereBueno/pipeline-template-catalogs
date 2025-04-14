@@ -6,17 +6,7 @@
   templateType: MULTIBRANCH
   multibranch:
     branchSource:
-      github:
-        repoOwner: PereBueno
-        repository: pipeline-template-catalogs
-  parameters:
-    - name: emailRecipient
-      type: string
-      displayName: Email address to be used for sending build notifications
-    - name: github_repo
-      type: string
-      displayName: GitHub HTTPS repo endpoint
-    - name: github_creds
-      displayName: GitHub Credentials ID
-      type: credentials
-      defaultValue: github-creds-example
+      git:
+        remote: https://github.com/PereBueno/Beer-O-Clock-Stash-hook
+    
+    markerfile: pom.xml
