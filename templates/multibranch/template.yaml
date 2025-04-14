@@ -7,9 +7,8 @@
   multibranch:
     branchSource:
       github:
-        repoOwner: myCompany
-        repository: myRepo
-        credentialsId: my-team-github-credentials
+        repoOwner: PereBueno
+        repository: pipeline-template-catalogs
   parameters:
     - name: emailRecipient
       type: string
