@@ -1,8 +1,8 @@
   version: 1
   type: pipeline-template
 
-  name: Java Maven App Pipeline Job
-  description: Simple Java App With Maven
+  name: GH multibranch
+  description: Multibranch with sources in GH
   templateType: MULTIBRANCH
   multibranch:
     branchSource:

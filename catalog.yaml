@@ -1,4 +1,4 @@
 version: 1
 type: pipeline-template-catalog
-name: customerPortalFrontendTeamCatalog
-displayName: Shared Template Catalog for Teams Working on the Customer Portal
+name: Simple pipeline template catalog
+displayName: My catalog
