@@ -1,0 +1,9 @@
+version: 1
+type: pipeline-template
+
+name: hello-world-pipe
+description: Simple Hello world pipeline
+parameters:
+  - name: who
+    type: string
+    displayName: Who are we saying hello to
